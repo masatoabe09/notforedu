@@ -2,8 +2,9 @@
 
 int main()
 {
+    char i;
     int i;
-    for (i = 3; i < 20; i++)       // 10回繰り返す
+    for (i = 29; i < 30; i++)       // 10回繰り返す
     {
         printf("Hello, world!\n"); // 文字列を出力する
     }
