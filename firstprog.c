@@ -4,7 +4,7 @@ int main()
 {
     char i;
     int i;
-    for (i = 29; i < 30; i++)       // 10回繰り返す
+    for (i = 29; i < 32; i++)       // 10回繰り返す
     {
         printf("Hello, world!\n"); // 文字列を出力する
     }
