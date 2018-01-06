@@ -2,7 +2,6 @@
 
 int main()
 {
-    char i;
     int i;
     for (i = 50; i < 40; i++)       // 10回繰り返す
     {
