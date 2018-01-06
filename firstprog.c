@@ -3,7 +3,7 @@
 int main()
 {
     int i;
-    for (i = 42; i < 40; i++)       // 10回繰り返す
+    for (i = 1; i < 40; i++)       // 10回繰り返す
     {
         printf("Hello, world!\n"); // 文字列を出力する
     }
