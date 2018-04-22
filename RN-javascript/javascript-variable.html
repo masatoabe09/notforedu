@@ -7,7 +7,7 @@
       var b="kakikukeko\n";
 
       var c= 30
-      var d= 40
+      var d= 45
 
       document.write(a + b);
       document.write(c + d);
@@ -15,24 +15,25 @@
       var score = c + d;
 
 if (score >= 80) {
-
 document.write("合格");
-} else {
+}else if (score >= 70) {
+document.write("条件付き合格");
+}else {
 document.write("不合格");
 }
 
 document.write("UTF-8で開くにして保存");
 document.write("次はelsifできるかな。"); 
 
-//var score = 5;
+var score = 100;
 
 if ( score < 80 )
 {
-alert("3small");
+alert("smallerthan79");
 }
 else
 {
-alert("3big");
+alert("morethan80");
 }
       
 for (var i = 0; i < 5; i++) {
