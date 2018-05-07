@@ -71,40 +71,29 @@ document.write (i * 2);
 //     i ++;
 // }
 
-var i = 0; do {
-    document.write(i + ",");
-    i ++;
-} while (i < 5);
 
-//①配列コンストラクタの例
-var array1 = new Array('リンゴ', 'バナナ', 'イチゴ');
+var EVA = ["Zero", "First", "2nd"];
+//  console.log(EVA[1]);テストしてからプッシュしてね。
+document.write(EVA);
 
-//②配列リテラルの例
-var array2 = ['リンゴ', 'バナナ', 'イチゴ'];
+//配列yobiに各曜日の名称を入れる
+var yobi = new Array();
 
-console.log('こんにちは');
+yobi[0] = "日曜日";
+yobi[1] = "月曜日";
+yobi[2] = "火曜日";
+yobi[3] = "水曜日";
+yobi[4] = "木曜日";
+yobi[5] = "金曜日";
+yobi[6] = "土曜日";
 
- document.write(c + d);
+//今日の日付データを取得し、それから曜日を取得する
+var today = new Date();
+var week  = today.getDay();
 
-console.log( array1 );
-console.log( array2 );
+document.write("</br>今日は"+yobi[week]+"です！");
 
-var a0 = [];
-console.log(a0.length);  // 0 と表示
 
-var result = [85, 78, 92, 62, 69];
-var name = ['加藤', '武田', '小田', '毛利', '遠藤'];
-
-document.write("<p>");
-
-for (var i = 0; i < 5; i++){
-      document.write(name[i] + "さんの成績は" + result[i] + "です<br />");
-}
-
-document.write("</p>");
-
-  var EVA = ["Zero", "First", "2nd"];
-  console.log(EVA[1]);
 
 </script>
 
@@ -126,11 +115,5 @@ document.write("</p>");
 </tr>
 </table>
 
-<p style="color:#000; 
-font-size:12px; 
-font-weight:bold; 
-padding:10px 0px;">
-とても読みづらいコードになっちゃうよ
-</p>
   </body>
 </html>
