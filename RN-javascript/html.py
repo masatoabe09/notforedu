@@ -15,3 +15,6 @@ print("b=",b)
 print("c=",c)
 print("d=",d)
 print("e=",e)
+
+for char in 'Hello':
+    print(char)
