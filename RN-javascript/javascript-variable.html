@@ -1,4 +1,4 @@
-<html ng-app>
+﻿<html ng-app>
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
   <p><input type="text" ng-model="name"></p>
    <p>{{name}}</p>
@@ -24,17 +24,18 @@
       var c= 30
 //    var d= 45
       var d= 44
-
+      
+document.write("aiueokakikukekoと出力<br>");
       document.write(a + b);
       document.write(c + d);
       var score = c + d;
 
 if (score >= 80) {
-document.write("合格\n<br>");
+document.write("合格<br>");
 }else if (score >= 70) {
-document.write("条件付き合格\n<br>");
+document.write("条件付き合格<br>");
 }else {
-document.write("不合格\n<br>");
+document.write("不合格<br>");
 }
 
 
@@ -42,7 +43,7 @@ document.write("不合格\n<br>");
 
 //document.write("UTF-8で開くにして保存");
 //document.write("次はelseifできるかな。"); 
-//document.write("whileを入れてみようぜ。\n<br>");
+//document.write("whileを入れてみようぜ。<br>");
 
 //var score = 100;
 
@@ -62,12 +63,12 @@ document.write (i * 3);
 var i = 0;
 do {
   i += 2;
-document.write (i * 2);
+document.write (i * 1 -1 +"回目<br>");
 } while (i < 10);
 
       var i=0;
       while(i<100){
-        if(i==20){
+        if(i==10){
             break;
         }
         document.write("再試行"+(i+1)+"回目<br>");
@@ -91,10 +92,10 @@ document.write( GENGO1[0] + "<br>" );
 document.write( GENGO1[2] + "<br>" );
 document.write( GENGO2[0] + "<br>" );
 
-let ar = [10, 20, 30];
 
-for(let i = 0; i < ar.length; i++) {
-  document.write(ar[i])
+var array = ['a', 'b', 'c', 'd', 'e', 'f'];
+for (var i = 0, len = GENGO1.length; i < len; ++i) {
+  document.write(GENGO1[i]);
 }
 
 
