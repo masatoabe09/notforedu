@@ -20,4 +20,23 @@ for char in 'Hello':
     print(char)
 
 for num in range(5, 10):
-    print(num - 4)
+    print\
+    (num - 4)
+
+for i in range(10):
+	print("Hello World!")
+
+print\
+    ("""alphabet
+    a
+    bc
+    def
+    ghij
+    klmno
+    pqrstu
+    vwxyz
+    """)
+a = 3
+b = 5
+c = a * b
+c
