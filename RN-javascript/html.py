@@ -18,3 +18,6 @@ print("e=",e)
 
 for char in 'Hello':
     print(char)
+
+for num in range(5, 10):
+    print(num - 4)
