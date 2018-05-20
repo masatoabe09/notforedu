@@ -40,3 +40,10 @@ a = 3
 b = 5
 c = a * b
 c
+
+file = open('test.txt', 'r')
+string = file.read()
+ 
+print(string)
+
+
