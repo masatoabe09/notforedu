@@ -46,4 +46,7 @@ string = file.read()
  
 print(string)
 
-
+aaa = 40
+for i in range(1, aaa):
+    if i % 3 == 0:
+        print(i)
