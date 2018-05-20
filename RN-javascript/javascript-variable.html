@@ -88,37 +88,17 @@ document.write(EVA);
 
 var GENGO1 = [ "English", "Japanese", "Spanish" ];
 var GENGO2 = [ "French", "German", "Mongorian" ];
-document.write( GENGO1[0] + "<br>" );
-document.write( GENGO1[2] + "<br>" );
-document.write( GENGO2[0] + "<br>" );
 
-
-var array = ['a', 'b', 'c', 'd', 'e', 'f'];
 for (var i = 0, len = GENGO1.length; i < len; ++i) {
   document.write(GENGO1[i]);
 }
-
-
-//配列yobiに各曜日の名称を入れる
-var yobi = new Array();
-
-yobi[0] = "日曜日";
-yobi[1] = "月曜日";
-yobi[2] = "火曜日";
-yobi[3] = "水曜日";
-yobi[4] = "木曜日";
-yobi[5] = "金曜日";
-yobi[6] = "土曜日";
-
-//今日の日付データを取得し、それから曜日を取得する
-var today = new Date();
-var week  = today.getDay();
 
 document.write("</br>今日は"+yobi[week]+"です！");
 
 for (var i = 3; i < 10; i++) {
 document.write (i + "<br>" );
 }
+
 
 </script>
 
@@ -139,6 +119,12 @@ document.write (i + "<br>" );
 <td bgcolor="#FFFFFF" valign="top" width="200">テスト中</td>
 </tr>
 </table>
+
+<form>
+ 
+      <input type="file" />
+ 
+</form>
 
   </body>
 </html>
