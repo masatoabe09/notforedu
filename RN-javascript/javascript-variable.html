@@ -16,9 +16,10 @@
     <h1>javascriptわかんね</h1>
     <p>わからんなりに進める</p>
    </div>
-    <script type="text/javascript">
-      const year = new Date().getFullYear();
-if (year > 2017) {
+<script type="text/javascript">
+
+const year = new Date().getFullYear();
+if (year < 2019) {
     document.write (year);
 }
 var total = ["drink", "eat", "ticket"];
@@ -29,7 +30,9 @@ document.write("合計金額<br>");
       var ticket = 3000
       var total = drink + eat + ticket
 document.write(total);
+
 document.write("↑なぜか下部に書くと表示されないのでここに移動<br>");
+//入れ方が悪いんじゃないですかね。
       var a="aiueo\n<br>";
       var b="kakikukeko\n<br>";
 
@@ -93,6 +96,15 @@ document.write (i * 1 -1 +"回目<br>");
 //     i ++;
 // }
 
+ var total = ["drink", "eat", "ticket"];
+    document.write(total);             
+    document.write("合計金額<br>");     
+      var drink = 500
+      var eat = 1000               
+      var ticket = 3000            
+      var total = drink + eat + ticket
+document.write(total); 
+
 
 var EVA = ["Zero", "First", "2nd"];
 //  console.log(EVA[1]);テストしてからプッシュしてね。
@@ -105,16 +117,28 @@ for (var i = 0, len = GENGO1.length; i < len; ++i) {
   document.write(GENGO1[i]);
 }
 
-document.write("</br>今日は"+yobi[week]+"です！");
-
 for (var i = 3; i < 10; i++) {
 document.write (i + "<br>" );
 }
 
+var total = ["drink", "eat", "ticket"];
+ document.write(total);             
+ document.write("合計金額<br>");     
+     var drink = 500              
+     var eat = 1000               
+     var ticket = 3000            
+     var total = drink + eat + ticket
+ document.write(total); 
+
+
 </script>
+
 
 <table border="1" width="500" cellspacing="0" cellpadding="5" bordercolor="#333333">
 <tr>
+
+<!-- ここはjavascriptでforにできそう -->
+
 <th bgcolor="#EE0000"><font color="#FFFFFF">コード</font></th>
 <th bgcolor="#EE0000" width="150"><font color="#FFFFFF">担当者</font></th>
 <th bgcolor="#EE0000" width="200"><font color="#FFFFFF">ステータス</font></th>
