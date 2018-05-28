@@ -59,3 +59,5 @@ C = a + b
 
 z = "Hello World"
 z
+print(z,a)
+
