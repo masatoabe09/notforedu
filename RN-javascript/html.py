@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 print("HelloWorld")                                                         
 print """<html lnag="ja">
 <body>
@@ -59,5 +61,9 @@ C = a + b
 
 z = "Hello World"
 z
+
+#出力して結果を確かめよう。
+
+
 print(z,a)
 
